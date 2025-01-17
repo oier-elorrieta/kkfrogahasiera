@@ -21,6 +21,10 @@ public class Irakaslea {
 	public void setIzena(String izena) {
 		this.izena = izena;
 	}
+	@Override
+	public String toString() {
+		return "Irakaslea [id_irakas=" + id_irakas + ", izena=" + izena + "]";
+	}
 	
 	
 
